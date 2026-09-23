@@ -331,6 +331,7 @@ jobs:
           auto_kernel: ${{ inputs.auto_kernel }}
           kernel_repo: ophub/kernel
           kernel_usage: stable
+          openwrt_size: 384/32768
           builder_name: kwonelee
 
       - name: 📜 调整.img.gz 文件名
